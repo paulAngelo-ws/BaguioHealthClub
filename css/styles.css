@@ -1,0 +1,141 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eee;
+}
+
+/* FOR MEMBERSHIP.HTML CSS */
+
+.poster {
+  min-height: 1400px;
+  width: 1000px;
+  background: white;
+  padding: 50px 70px;
+  margin: auto;
+  border: 3px solid #000;
+  text-align: center;
+}
+
+.poster h1 {
+  font-size: 42px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.poster h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 40px 0 20px 0;
+  text-transform: uppercase;
+}
+
+.poster .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  font-size: 28px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
+
+.poster .row span {
+  width: 45%;      
+  text-align: center;
+}
+
+.poster .row .students {
+  color: #000;
+  font-size: 35px;
+}
+
+.poster .row .regular {
+  color: #000;
+  font-size: 35px;
+}
+
+.poster .promo {
+  color: #000;
+  font-size: 35px;
+}
+
+.poster .locker {
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 45px;
+}
+
+.poster .lifetime {
+  margin-top: 60px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+}
+
+/* END OF MEMBERSHIP.HTML CSS*/
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+
+#carouselLandingSlides .carousel-inner .carousel-item img{
+  width: 100%;
+  max-width: 100%;
+  max-height: 780px;  
+}
+
+#carouselLandingSlides .carousel-inner .carousel-item .carousel-caption h1{
+  font-size: 90px;
+}
+
+#carouselLandingSlides .carousel-inner .carousel-item .carousel-caption p{
+  font-size: 30px;
+}
+
+#Section-body {
+  background-color: #1C1C1E;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+
+#Section-body .col .card{
+  background-color: #121212;
+  color: white;
+  padding: 1%;
+}
+
+#Section-body .col .card button a {
+  color: #121212;
+  padding: 1%;
+}
+
+#Section-body h2{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+footer {
+  background-color: #121212;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  #carouselLandingSlides .carousel-inner .carousel-item .carousel-caption h1{
+    font-size: 50px;
+  }
+}
